@@ -1,0 +1,24 @@
+# Task: Network Security Awareness Dashboard
+
+- [/] Project Initialization and Setup
+    - [x] Create Vite project <!-- id: 1 -->
+    - [x] Install dependencies (`zxcvbn`, `lucide-react`, `framer-motion`) <!-- id: 2 -->
+    - [/] Setup folder structure and basic routing/layout <!-- id: 3 -->
+- [ ] Core Design System Implementation
+    - [ ] Implement [index.css](file:///c:/Users/G/Desktop/checkDigitalsecurity/src/index.css) with cybersecurity theme (dark mode, neon green) <!-- id: 4 -->
+    - [ ] Create reusable UI components (Buttons, Cards, Inputs) <!-- id: 5 -->
+- [/] Module 1: Password Strength Auditor
+    - [x] Create [PasswordAuditor](file:///c:/Users/G/Desktop/checkDigitalsecurity/src/components/modules/PasswordAuditor.jsx#6-125) component <!-- id: 6 -->
+    - [x] Integrate `zxcvbn` library <!-- id: 7 -->
+    - [x] Design brute-force time visualization <!-- id: 8 -->
+- [x] Module 2: Router Security Checklist
+    - [x] Create [SecurityChecklist](file:///c:/Users/G/Desktop/checkDigitalsecurity/src/components/modules/SecurityChecklist.jsx#5-102) component <!-- id: 9 -->
+    - [x] Implement interactive checklist items <!-- id: 10 -->
+    - [x] Add warning/info tooltips <!-- id: 11 -->
+- [x] Module 3: Hacker Defense Rules
+    - [x] Create [DefenseRules](file:///c:/Users/G/Desktop/checkDigitalsecurity/src/components/modules/DefenseRules.jsx#5-123) component <!-- id: 12 -->
+    - [x] Design visual cards for rules of defense <!-- id: 13 -->
+- [x] Verification and Polish
+    - [x] Final UI/UX audit for "wow" factor <!-- id: 14 -->
+    - [x] Responsive design check <!-- id: 15 -->
+    - [x] Create walkthrough artifact <!-- id: 16 -->

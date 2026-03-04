@@ -1,0 +1,41 @@
+# Cyber-Noir UI Transformation Plan
+
+Transform the dashboard into a premium "Cyber-Noir Command Center" with advanced styling and animations.
+
+## Proposed Changes
+
+### [Global Styles & Aesthetic]
+
+#### [MODIFY] [index.css](file:///c:/Users/G/Desktop/checkDigitalsecurity/src/index.css)
+- Implement background `#020617` with animated SVG grid.
+- Add fixed scanline overlay.
+- Define glassmorphism utility classes with cyan borders (`#22d3ee`).
+- Add animations: glitch effect, pulse for icons, and hover glow/scale.
+- Set global font to 'JetBrains Mono' (importing from Google Fonts).
+
+### [Main Application Component]
+
+#### [MODIFY] [App.jsx](file:///c:/Users/G/Desktop/checkDigitalsecurity/src/App.jsx)
+- Update layout to incorporate new background and scanlines.
+- Implement Framer Motion stagger animations for module entry.
+- Ensure all headers have the hover glitch effect.
+
+### [Module Components]
+
+#### [MODIFY] all modules
+- Ensure `useState`, `useEffect`, `useRef` are imported from 'react'.
+- Apply `glass-card` class and ensure icons use pulse animation for alerts.
+
+#### [MODIFY] [SocialBot.jsx](file:///c:/Users/G/Desktop/checkDigitalsecurity/src/components/modules/SocialBot.jsx)
+- Switch from manual `chatEndRef.scrollTo` to `scrollIntoView()` for reliability and to prevent crashes.
+
+## Verification Plan
+
+### Automated Tests
+- `npm run lint` to check for import/variable issues.
+
+### Manual Verification
+- Visual inspection of the "Cyber-Noir" theme (grid, scanlines, glassmorphism).
+- Test hover effects (scale, glow, glitch).
+- Verify "Social Bot" chat auto-scrolls correctly without errors.
+- Check staggered entrance animations on page load.
