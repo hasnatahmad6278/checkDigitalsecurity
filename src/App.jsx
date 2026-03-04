@@ -7,6 +7,7 @@ import LinkVerifier from './components/modules/LinkVerifier'
 import SocialBot from './components/modules/SocialBot'
 import { motion, AnimatePresence } from 'framer-motion'
 import ErrorBoundary from './components/ErrorBoundary'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   const [activeTab, setActiveTab] = useState('password')
@@ -125,6 +126,7 @@ function App() {
       <footer style={{ marginTop: '4rem', padding: '1rem 0', borderTop: '1px solid var(--glass-border)', color: 'var(--text-secondary)', fontSize: '0.75rem' }}>
         <p className="mono">© 2026 ANTIGRAVITY_SEC_OPS // [NODE: 127.0.0.1] // PROXY: ENABLED</p>
       </footer>
+      <Analytics />
     </div>
   )
 }
